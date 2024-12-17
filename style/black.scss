@@ -1,0 +1,500 @@
+
+$header-height: 150px;
+.black{
+    background-color: rgb(14, 16, 17);
+    .root {
+
+        .header {
+            
+            background-color: rgb(14, 16, 17);
+    
+            .center {
+                
+    
+                .logo {
+                    
+    
+                    .logo-title {
+                        color: rgb(242, 240, 237);
+                    }
+                }
+    
+                .content {
+                    color: #000;
+                    
+    
+                    .navbar {
+                        .act{
+                            &::after{
+                                background-color: #369b8b;
+                                top: 36px;
+
+                            }
+                        }
+                        .dropdown-menu{
+                    
+                            background-color: black;
+                        }
+                        .nav-item{
+                            .nav-link{
+                                color: white;
+                            }
+                            .dropdown-toggle{
+                                color: rgb(143, 143, 143);
+                               
+                            }
+                        }
+                        .dropdown-item{
+                            color: rgb(211, 211, 211);
+                            &:hover{
+                                background-color: #237868;
+                            }
+    
+                        }
+                    }
+    
+                    .contacts {
+                        .contact-btn {
+                           
+                            color: white;
+                            
+    
+                            &:hover {
+                                background: #338f7e;
+                                box-shadow: inset 1px -3px 9px 0px rgba(0, 0, 0, 0.3),
+                                    0px 0.93px 1.86px 0px rgba(0, 0, 0, 0.6);
+    
+    
+    
+                            }
+                        }
+                    }
+                }
+            }
+    
+        }
+    
+        .center {
+            .baner {
+                .baner-text {
+                    color: rgba(255, 255, 255, 0.95);
+                    text-shadow: 3.998px 3.998px 5.331px rgba(255, 255, 255, 0.25);
+                }
+            }
+    
+            .about {
+                .title {
+                    .about-title {
+                        color: rgb(242, 240, 237);
+                    }
+    
+                    .who {
+                        color: var(--dm-text--Color-3, #bfb8ae);
+                    }
+    
+                }
+    
+                .content {
+    
+                    .text {
+                        .description {
+                            border-color: rgb(141, 130, 114);
+                            color: rgb(225, 222, 216);
+    
+                            span {
+                                color: rgb(225, 222, 216);
+                            }
+                        }
+    
+                        .list {
+                            .list-item {
+                                img{
+                                    filter: invert(100%);
+                                }
+                                .text {
+                                    color: rgb(225, 222, 216);
+                                }
+    
+                            }
+    
+                        }
+                    }
+    
+                    .image {
+    
+                        .text {
+                            color: rgba(255, 255, 255, 0.95);
+                            text-shadow: 4px 3.998px 5.331px rgba(255, 255, 255, 0.22);
+                        
+                        }
+                    }
+                }
+    
+            }
+    
+            .black-line {
+                background-color: rgb(8, 9, 10);
+            }
+    
+            .services {
+                background-color: rgb(8, 9, 10);
+    
+                .title {
+    
+                    .services-title {
+                        color: white;
+                    }
+    
+                    .skills {
+                        color: #C3C3C3;
+                    }
+    
+                }
+    
+                .content {
+                    .service-item {
+    
+                        .block {
+                            background-color: rgb(14, 16, 17);
+                            box-shadow: rgba(0, 0, 0, 0.2) 3.964px 3.171px 11.416px 0px;
+    
+                            .main {
+                                .title {
+                                    color: rgb(241, 239, 236);
+                                }
+    
+                                .text {
+                                    color: rgb(230, 227, 222);
+                                }
+    
+                                .f-list {
+    
+                                    .list-item {
+                                        color: rgb(230, 227, 222);
+    
+                                    
+                                    }
+                                }
+    
+                                .s-list {
+    
+                                    .list-item {
+                                        color: rgb(226, 223, 217);
+    
+                                    }
+                                }
+    
+                                .figma {
+                                }
+    
+                                .bot-text {
+                                    color: rgb(223, 218, 213);
+                                }
+    
+                                .seo-text {
+                                    color: rgb(223, 219, 213);
+                                }
+                                .parsing-text{
+                                    color:rgb(223, 218, 213);
+                                }
+                            }
+    
+                            .img {
+                                img {
+                                    &:hover {
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .left {
+                    }
+    
+                    .right {
+                    }
+                }
+            }
+    
+            .profile {
+                .title {
+    
+                    .profile-title {
+                        color: rgb(242, 240, 237);
+                    }
+    
+                    .wnb {
+                        color: #bfb8ae;
+                    }
+    
+                }
+    
+                .carousel {
+                    .carousel-indicators {
+    
+                        button {
+                            background-color: gray;
+                        }
+    
+                        .active {
+                            background-color: #369B8B;
+    
+                        }
+                    }
+    
+                    .c-btn {
+                        
+                        background-color: #7a7a7a;
+                        
+                    }
+    
+                    .carousel-inner {
+    
+                        .carousel-item {
+                            .content {
+    
+                                .block {
+    
+                                    .label {
+                                        color: rgb(219, 215, 209);
+                                    }
+    
+                                    .description {
+                                        color: rgb(219, 215, 209);
+                                    }
+    
+                                }
+                            }
+                        }
+    
+                    }
+                }
+            }
+    
+            .contacts {
+                .title {
+    
+                    .contacts-title {
+                        color: rgb(242, 240, 237);
+                    }
+    
+                    .communication {
+                        color: #bfb8ae;
+                    }
+    
+                    
+                }
+    
+                .main {
+                    .content {
+    
+                        >.label {
+                            color: #FFF;
+                        }
+    
+                        .form {
+    
+                            .field {
+                                .label {
+                                    color: #FFF;
+                                }
+    
+                                .name,
+                                .email {
+    
+    
+                                    input {
+                                        border-color: rgb(50, 54, 58);
+                                        background-color: rgb(14, 16, 17);
+                                        box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+                                        color: white;
+                                        
+                                    }
+                                }
+    
+                                .radios {
+                                    .radio {
+                                        // width: 100%;
+                                        background-color: rgb(26, 29, 31);
+                                        box-shadow: rgba(0, 0, 0, 0.09) 2px 4px 5px 0px inset;
+                                        color: rgb(198, 193, 184);
+    
+                                        &:hover {
+                                            background-color: rgb(14, 16, 17);
+                                        }
+    
+                                        // box-shadow: inset 10px 10px 10px 10px rgb(167, 167, 167);
+                                    }
+    
+                                    input {
+                                        display: none;
+    
+                                        &:checked+label {
+                                            color: rgb(242, 240, 237);
+                                            background-color: rgb(35, 124, 109);
+    
+                                            &:hover {
+                                                background-color: #369B8B;
+                                            }
+                                        }
+                                    }
+                                }
+    
+                            }
+    
+                            .name-email {
+    
+                            }
+    
+                            .radio-group {
+                                background: linear-gradient(90deg, #369B8B 0.25%, #123530 126.77%);
+                                box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.08);
+                                color: white;
+    
+                                label {
+    
+                                    &:hover {
+                                        background-color: rgba(14, 16, 17, 0.14);
+                                    }
+    
+                                }
+    
+                                .selected {
+                                    background-color: rgb(14, 16, 17);
+
+                                }
+    
+                                input {
+                                    &:checked+label {
+                                        color: rgb(242, 240, 237);
+                                    }
+    
+                                }
+    
+                            }
+    
+                            .message {
+                                textarea {
+                                    border-color: rgb(50, 54, 58);
+                                    background-color: rgb(14, 16, 17);
+                                    color: rgb(242, 240, 237);
+                                    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+
+                                }
+                            }
+    
+                            .submit {
+                                input {
+                                    
+                                    background: #369B8B;
+                                       
+                                    box-shadow: inset 1px -3px 9px 0px rgba(0, 0, 0, 0.2), 0px 0.93px 1.86px 0px rgba(0, 0, 0, 0.05);
+                                    
+                                    color: #FFF;
+                                    &:hover {
+                                        background: #338f7e;
+                                        box-shadow: inset 1px -3px 9px 0px rgba(0, 0, 0, 0.3),
+                                            0px 0.93px 1.86px 0px rgba(0, 0, 0, 0.6);
+        
+        
+        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .tools {
+                background-color: rgb(8, 9, 10);
+    
+                .item {
+                }
+            }
+        }
+    
+        .footer {
+    
+            .left {
+    
+                .logo_url{
+                }
+                .logo {
+                    color: rgb(242, 240, 237);
+    
+                }
+    
+                .text {
+                    color: rgba(165, 157, 143, 0.95);
+                    text-shadow: rgba(14, 16, 17, 0.25) 3.998px 3.998px 5.331px;
+                }
+            }
+    
+            .center {
+                .bl {
+                    .title {
+                        color: rgb(238, 235, 231);
+                    }
+    
+                    .content {
+                        color: rgb(242, 240, 237);
+                        a {
+                            color: rgb(242, 240, 237);
+                        }
+                    }
+    
+                    .navigation {
+                        color: #070707;
+    
+                        /* 150% */
+                        .nav-item {
+    
+                            a {
+                                color: rgb(242, 240, 237);
+                                text-decoration-color: initial;
+                                &:hover {
+                                    // font-size: 17px;
+                                    color:#2fa08d;
+                                    // transform: scale(1.03);
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+    
+            .right {
+                .title {
+                    color: rgb(238, 235, 231);
+                }
+    
+                .contact-us {
+                    button {
+                        color: white;
+                        background: linear-gradient(180deg, #369B8B 53.98%, #123530 269.08%);
+                        background: #369B8B;
+                        box-shadow: inset 1px -3px 9px 0px rgba(0, 0, 0, 0.2),
+                            0px 0.93px 1.86px 0px rgba(0, 0, 0, 0.05);
+    
+                        &:hover {
+                            background: #338f7e;
+                            box-shadow: inset 1px -3px 9px 0px rgba(0, 0, 0, 0.3),
+                                0px 0.93px 1.86px 0px rgba(0, 0, 0, 0.6);
+                         }
+                    }
+                }
+    
+                .links {
+                    a{
+                        .twitter-img{
+                            filter: invert(100%);
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

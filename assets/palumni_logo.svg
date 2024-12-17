@@ -1,0 +1,19 @@
+<svg width="88" height="88" viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="palumni_logo">
+<rect id="Rectangle 1" width="87.1569" height="87.1569" rx="17.4314" fill="url(#paint0_linear_1_139)"/>
+<g id="Group 1">
+<path id="Rectangle 3" d="M29.9017 28.0322H34.4371L32.4934 78.706L27.958 79.4248L29.9017 28.0322Z" fill="white"/>
+<path id="Rectangle 2" d="M21.047 28.0476L25.3664 27.6729L23.2067 79.7688L18.8873 80.1436L21.047 28.0476Z" fill="white"/>
+<path id="Vector 3" d="M15 13.2968C24.0934 13.2968 41.8883 11.8592 53.2822 15.3118C61.7694 17.8837 72.6367 26.5212 73.7284 41.233C75.2558 61.8142 54.8466 74.0334 37.3529 70.7989" stroke="white" stroke-width="5.39542"/>
+<path id="Vector 2" d="M21.155 21.5629C27.9267 21.5629 40.6856 20.7147 49.3392 23.0004C56.1423 24.7973 63.768 30.1633 64.8891 40.6104C66.5088 55.7047 51.2829 63.9707 38.0007 61.455" stroke="white" stroke-width="5.39542"/>
+<path id="Vector 1" d="M34.1137 30.1885C37.3533 30.1885 44.1563 30.1885 48.3678 31.6512C52.1866 32.9776 55.9881 36.012 56.1427 41.3295C56.4562 52.1116 44.4803 52.83 38.3251 52.1112" stroke="white" stroke-width="5.39542"/>
+<path id="Rectangle 4" d="M29.9018 28.0314L34.6006 27.8511C34.6995 27.8473 34.7926 27.898 34.8431 27.9831C34.9499 28.1631 34.8202 28.3908 34.611 28.3908H30.2612C30.0627 28.3908 29.9018 28.2299 29.9018 28.0314Z" fill="white"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_139" x1="43.5784" y1="0" x2="44" y2="195.5" gradientUnits="userSpaceOnUse">
+<stop offset="0.2" stop-color="#369B8B"/>
+<stop offset="1" stop-color="#123530"/>
+</linearGradient>
+</defs>
+</svg>

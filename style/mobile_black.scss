@@ -1,0 +1,416 @@
+$title-size: 32px;
+$sblack:rgb(24 24 24);
+
+@media screen and (max-width:992px) {
+    .black{
+        color: var(--dm-text--bs-body-color);
+        background-color: $sblack;
+        .root{
+            .header{
+                
+                .center{
+                    
+                    .logo{
+                        img{
+                            
+
+                        }
+                        .logo-title{
+                         
+                        }
+                    }
+                    .content{
+                     
+                        .buttons{
+                            .languages{
+                                .dropdown-toggle{
+                                    color: rgb(186, 186, 186);
+                                }
+                                .dropdown-menu{
+                                    background-color: black;
+                                    .dropdown-item{
+                                        position: relative;
+                                        color: rgb(207, 207, 207);
+                                        
+                                        input{
+                                            
+                                        }
+                                        &:hover{
+                                            transition-duration: 0s;
+                                            background-color: #369b8ad5;
+                                            border-radius: 4px;
+                                            color: white;
+                                        }
+                                    }
+                                }
+                            }
+                            .theme{
+                                
+                                img{
+                                   
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                
+            }
+            .h-scroll{
+                
+            }
+            > .center{
+                
+                .baner{
+                    .baner-text{
+                       
+                        span{
+                            
+                        }
+                    }
+                }
+                .about{
+                    background-color: black;
+                    .title{
+                      
+                        .about-title{
+                            
+                        }
+                        .who{
+                           
+                        }
+                        img{
+                           
+                        }
+                        
+                    }
+                    .content{
+                        .text{
+                         
+                            .description{
+                                span{
+                                   
+                                }
+                             
+                            }
+                            .list{        
+                                background-color: rgb(5, 6, 7);
+                                .list-item{
+                                    background-color:$sblack;
+                                    img{
+                                        height: 50px;
+                                        margin-right: 10px;
+                                    }
+                                    .text{
+                                        color: rgb(225, 222, 216);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .contacts{
+                    background-color: $sblack;
+                    .title{
+                     
+                        .contacts-title{
+                       
+
+                        }
+                        .communication{
+                         
+                        }
+                        img{
+                         
+                        }
+                    }
+                    .main{
+                   
+                        .content{
+                           
+                            .label{
+                               
+
+                            }
+                            .form{
+                           
+                                .name-email{
+                                 
+                                }
+                                .field{
+                                  
+
+                                    .label{
+                                     
+                                    }
+                                    .name{
+                                      
+                                        input{
+                                         
+                                        }
+                                    }
+                                    .email{
+                                   
+                                        input{
+                                         
+                                        }
+                                    }
+                                    .radios{
+                                   
+                                        .radio{
+                                          
+                                        }
+                                    }
+                                }
+                                .service{
+                                   
+                                }
+                                .budget{
+                
+                                }
+                                .message{
+                                    textarea{
+                                        
+                                    }
+                                   
+                                    
+                                }
+                                .radio-group{
+                                    
+                                    label{
+                                        div{
+                                           
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .tools{
+                    
+                    .item{
+                        img{
+                           
+                        }
+                    }
+                }
+                .profile{
+                    
+                    .title{
+                        
+                        .profile-title{
+
+                        }
+                        .wnb{
+                           
+                        }
+                        img{
+                         
+                        }
+                    }
+                    .swiper-container{
+                       
+                        .swiper-wrapper{
+                        
+                            .swiper-slide{
+                             
+                                .block{
+                                   
+                                    img{
+                                       
+                                    }
+                                    .label{
+                                        color: rgb(219, 215, 209);
+                                    }
+                                    .description{
+                                        color: rgb(219, 215, 209);
+                                    }
+                                }
+                            }
+                        }
+                        .swiper-pagination{
+                            .swiper-pagination-bullet{
+                                background-color: rgb(88 255 227);
+
+                            }
+                            .swiper-pagination-bullet-active{
+                                background-color:var(--Color-4, #369B8B);
+                            }
+                        }
+                    }
+                    
+                }
+                .services-mobile{
+                    background-color:black;
+                    .title{
+                    
+                        .services-title{
+                           
+                            color: white;
+                          
+                        }
+                        .skills{
+                            color: #b8b8b8;
+                           
+                        }
+                        img{
+                          
+                        }
+                    }
+                    .content{
+                      
+                        
+                        .cards{
+                          
+                        
+                            
+                            .card {
+                                border-color: initial;
+                                background-color: rgb(14, 16, 17);
+                                color: rgb(242, 240, 237);
+                                .top{
+                                    .parsing-img{
+                                        filter: invert(100%);
+                                    }
+                                    img{
+                                    
+                                    }
+                                    .label{
+                                        color: rgb(230, 227, 223);
+                                    }
+                                    .description{
+                                        color: rgb(230, 227, 223);
+                                    }
+                                }
+                                .bot{
+                                    
+                                    color: white;
+                                   
+                                    filter: blur(1);
+                                    
+                                }
+                            }
+                    
+                            .f {
+                                
+                            }
+                    
+                            .s {
+                                box-shadow: 0px 1px 16px rgb(255 255 255 / 20%);
+
+                                .bot{
+                                    
+                                    background-color: #369B8B; 
+                                }
+                               
+                            }
+                    
+                            .t {
+
+                                filter: blur(1px) contrast(0.5);
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .mobile-footer{
+                
+                .top{
+                    
+                    .logo{
+                        
+                        color: #000;
+                        
+                        .logo-text{
+                            color: rgb(242, 240, 237);
+                        }
+                        img {
+                            
+                            &:hover{
+                                transform: scale(1.05);
+                            }
+                        }
+                    }
+
+                    .text{
+                       
+                        span{
+                            
+                            color: rgb(238, 235, 231);
+                        }
+                        a{
+                            text-decoration: none;
+                        }
+                        button{
+                           
+                            box-shadow: 0px 1.065573811531067px 2.13px rgba(0, 0, 0, 0.05);
+                            border-radius: 10px;
+                            background-color: #369B8B;  
+                            color: #fff;  
+                        }
+                    }
+                }
+                .mid{
+
+                    .text{
+                        color: rgba(195, 189, 180, 0.95);
+                        text-shadow: rgba(14, 16, 17, 0.25) 3.99798px 3.99798px 5.33px;
+                    }
+                    .links{
+
+                        a{
+                            .twitter-img{
+                                filter: invert(100%);
+                            }
+                            img{
+                               
+                            }
+                        }
+                    }
+                }
+                .bot{
+                  
+                    .nav{
+    
+                        .navbar-toggler{
+                            color: rgb(238, 235, 231);
+                            box-shadow: rgba(0, 0, 0, 0.25) 2px 4px 5px;
+                            background-color: rgb(255 255 255 / 7%);
+                            .arrow{
+                              
+                                img{ 
+                                    filter: invert(100%);
+                                }    
+                            }    
+                            
+                        }
+                        .collapsed{
+                       
+                        }
+                        .nav-list{
+
+                            li{
+                                background-color: rgb(86, 94, 98);
+    
+                            }
+                            .nav-item{
+                               
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                hr{
+                    color: rgba(231, 228, 224, 0.7);
+                }
+                .palumni2024{
+                    .text{
+                        color: rgba(231, 228, 224, 0.7);
+                    }
+                }
+            }
+        }
+    }
+}

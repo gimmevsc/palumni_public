@@ -1,0 +1,137 @@
+@media screen and (max-width: 992px) {
+  .black {
+    color: var(--dm-text--bs-body-color);
+    background-color: rgb(24, 24, 24);
+  }
+  .black .root .header .center .content .buttons .languages .dropdown-toggle {
+    color: rgb(186, 186, 186);
+  }
+  .black .root .header .center .content .buttons .languages .dropdown-menu {
+    background-color: black;
+  }
+  .black .root .header .center .content .buttons .languages .dropdown-menu .dropdown-item {
+    position: relative;
+    color: rgb(207, 207, 207);
+  }
+  .black .root .header .center .content .buttons .languages .dropdown-menu .dropdown-item:hover {
+    transition-duration: 0s;
+    background-color: rgba(54, 155, 138, 0.8352941176);
+    border-radius: 4px;
+    color: white;
+  }
+  .black .root > .center .about {
+    background-color: black;
+  }
+  .black .root > .center .about .content .text .list {
+    background-color: rgb(5, 6, 7);
+  }
+  .black .root > .center .about .content .text .list .list-item {
+    background-color: rgb(24, 24, 24);
+  }
+  .black .root > .center .about .content .text .list .list-item img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  .black .root > .center .about .content .text .list .list-item .text {
+    color: rgb(225, 222, 216);
+  }
+  .black .root > .center .contacts {
+    background-color: rgb(24, 24, 24);
+  }
+  .black .root > .center .profile .swiper-container .swiper-wrapper .swiper-slide .block .label {
+    color: rgb(219, 215, 209);
+  }
+  .black .root > .center .profile .swiper-container .swiper-wrapper .swiper-slide .block .description {
+    color: rgb(219, 215, 209);
+  }
+  .black .root > .center .profile .swiper-container .swiper-pagination .swiper-pagination-bullet {
+    background-color: rgb(88, 255, 227);
+  }
+  .black .root > .center .profile .swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: var(--Color-4, #369B8B);
+  }
+  .black .root > .center .services-mobile {
+    background-color: black;
+  }
+  .black .root > .center .services-mobile .title .services-title {
+    color: white;
+  }
+  .black .root > .center .services-mobile .title .skills {
+    color: #b8b8b8;
+  }
+  .black .root > .center .services-mobile .content .cards .card {
+    border-color: initial;
+    background-color: rgb(14, 16, 17);
+    color: rgb(242, 240, 237);
+  }
+  .black .root > .center .services-mobile .content .cards .card .top .parsing-img {
+    filter: invert(100%);
+  }
+  .black .root > .center .services-mobile .content .cards .card .top .label {
+    color: rgb(230, 227, 223);
+  }
+  .black .root > .center .services-mobile .content .cards .card .top .description {
+    color: rgb(230, 227, 223);
+  }
+  .black .root > .center .services-mobile .content .cards .card .bot {
+    color: white;
+    filter: blur(1);
+  }
+  .black .root > .center .services-mobile .content .cards .s {
+    box-shadow: 0px 1px 16px rgba(255, 255, 255, 0.2);
+  }
+  .black .root > .center .services-mobile .content .cards .s .bot {
+    background-color: #369B8B;
+  }
+  .black .root > .center .services-mobile .content .cards .t {
+    filter: blur(1px) contrast(0.5);
+  }
+  .black .root .mobile-footer .top .logo {
+    color: #000;
+  }
+  .black .root .mobile-footer .top .logo .logo-text {
+    color: rgb(242, 240, 237);
+  }
+  .black .root .mobile-footer .top .logo img:hover {
+    transform: scale(1.05);
+  }
+  .black .root .mobile-footer .top .text span {
+    color: rgb(238, 235, 231);
+  }
+  .black .root .mobile-footer .top .text a {
+    text-decoration: none;
+  }
+  .black .root .mobile-footer .top .text button {
+    box-shadow: 0px 1.0655738115px 2.13px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    background-color: #369B8B;
+    color: #fff;
+  }
+  .black .root .mobile-footer .mid .text {
+    color: rgba(195, 189, 180, 0.95);
+    text-shadow: rgba(14, 16, 17, 0.25) 3.99798px 3.99798px 5.33px;
+  }
+  .black .root .mobile-footer .mid .links a .twitter-img {
+    filter: invert(100%);
+  }
+  .black .root .mobile-footer .bot .nav .navbar-toggler {
+    color: rgb(238, 235, 231);
+    box-shadow: rgba(0, 0, 0, 0.25) 2px 4px 5px;
+    background-color: rgba(255, 255, 255, 0.07);
+  }
+  .black .root .mobile-footer .bot .nav .navbar-toggler .arrow img {
+    filter: invert(100%);
+  }
+  .black .root .mobile-footer .bot .nav .nav-list li {
+    background-color: rgb(86, 94, 98);
+  }
+  .black .root .mobile-footer .bot .nav .nav-list .nav-item {
+    color: #fff;
+  }
+  .black .root .mobile-footer hr {
+    color: rgba(231, 228, 224, 0.7);
+  }
+  .black .root .mobile-footer .palumni2024 .text {
+    color: rgba(231, 228, 224, 0.7);
+  }
+}/*# sourceMappingURL=mobile_black.css.map */

@@ -1,0 +1,33 @@
+{
+    
+    "ua" : { 
+        "subject":"Замовлення на Palumni",
+        "message":"Ми успішно отримали Ваше замовлення!<br><br>Ми зв'яжемося з вами найближчим часом"
+        
+    },
+    "pl" : { 
+        "subject":"Zamówienie na Palumni",
+        "message":"Pomyślnie otrzymaliśmy Twoje zamówienie!<br><br>Wkrótce się z Tobą skontaktujemy"
+        
+    },
+    "ru" : { 
+        "subject":"Заказ на Palumni",
+        "message":"Мы успешно получили Ваш заказ!<br><br>Мы свяжемся с вами в ближайшее время"
+        
+    },
+    "sk" : { 
+        "subject":"Objednávka Palumni",
+        "message":"Úspešne sme dostali vašu objednávku!<br><br>Čoskoro vás budeme kontaktovať"
+        
+    },
+    "en" : { 
+        "subject":"Order on the Palumni",
+        "message":"We have successfully received your order!<br><br>We will contact you as soon as possible"
+        
+    },
+    "de" : { 
+        "subject":"Bestellung auf der Palumni",
+        "message":"Wir haben Ihre Bestellung erfolgreich erhalten!<br><br>Wir werden Sie in Kürze kontaktieren"
+        
+    }
+}

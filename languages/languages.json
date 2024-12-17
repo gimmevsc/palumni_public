@@ -1,0 +1,30 @@
+{
+    "countries": {
+      "Ukraine": "ua",
+      "Russia": "ru",
+      "Kazakhstan": "ru",
+      "Germany": "de",
+      "Austria": "de",
+      "Switzerland": "de",
+      "Luxembourg": "de",
+      "Liechtenstein": "de",
+      "Poland": "pl",
+      "Slovakia": "sk",
+      "United States": "en",
+      "Canada": "en",
+      "United Kingdom": "en",
+      "Australia": "en",
+      "New Zealand": "en",
+      "Ireland": "en",
+      "South Africa": "en",
+      "Czech Republic": "sk",
+      "Belarus": "ru",
+      "Estonia": "ru",
+      "Latvia": "ru",
+      "Lithuania": "ru",
+      "Moldova": "ru",
+      "Georgia": "ru",
+      "Uzbekistan": "ru",
+      "Azerbaijan": "ru"
+    }
+}
