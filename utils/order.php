@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+include("../env/env.php");
 include("./functions.php");
 include("./customer_email.php");
 use PHPMailer\PHPMailer\PHPMailer;
@@ -20,11 +20,9 @@ if(isLocalhost()){
 
 if (isset($_POST["submit"])) {
 
+    $owners_emails = explode(',', $_ENV['OWNERS_EMAILS']);
+
     
-    $owners_emails = ['example@gmail.com'];
-
-
-
     $name = htmlspecialchars($_POST["name"]);
 
     $email = htmlspecialchars($_POST["email"]);
@@ -56,19 +54,19 @@ if (isset($_POST["submit"])) {
 
     $mail->isSMTP();
 
-    $mail->Host = 'smtp.gmail.com';
+    $mail->Host = $_ENV['MAIL_HOST'];
 
     $mail->SMTPAuth = true;
 
-    $mail->Username = "example@gmail.com";
+    $mail->Username = $_ENV['MAIL_USERNAME'];
 
-    $mail->Password = "password";
+    $mail->Password = str_replace(',', ' ', $_ENV['MAIL_PASSWORD']);
 
     $mail->SMTPSecure = 'ssl';
 
-    $mail->Port = 465;
+    $mail->Port = $_ENV['MAIL_PORT'];
 
-    $mail->setFrom('example@gmail.com');
+    $mail->setFrom($_ENV['MAIL_USERNAME']);
 
     foreach ($owners_emails as $key => $owner_email) {
         $mail->addAddress($owner_email);
@@ -87,19 +85,20 @@ if (isset($_POST["submit"])) {
 
     $mail->isSMTP();
 
-    $mail->Host = 'smtp.gmail.com';
+    $mail->Host = $_ENV['MAIL_HOST'];
 
     $mail->SMTPAuth = true;
 
-    $mail->Username = "example@gmail.com";
+    $mail->Username = $_ENV['MAIL_USERNAME'];
 
-    $mail->Password = "password";
+    $mail->Password = str_replace(',', ' ', $_ENV['MAIL_PASSWORD']);
 
     $mail->SMTPSecure = 'ssl';
 
-    $mail->Port = 465;
+    $mail->Port = $_ENV['MAIL_PORT'];
 
-    $mail->setFrom('example@gmail.com');
+    $mail->setFrom($_ENV['MAIL_USERNAME']);
+
 
     $mail->addAddress($email);
  

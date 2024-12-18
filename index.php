@@ -1,10 +1,11 @@
 <?php
 session_start();
+include("./env/env.php");
 include("./utils/functions.php");
 include("./db/connect.php");
 include("./languages/getlanguage.php");
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,9 +42,7 @@ include("./languages/getlanguage.php");
     ?>
     <div class="center">
       <?php
-      
       include("./components/baner.php");
-
       include("./components/about.php");
       include("./components/profile.php");
       include("./components/services.php");
