@@ -1,6 +1,5 @@
 # **Palulmni**
 
-In db/connect.php change credentials.
 
 ## **Prerequisites**
 Make sure you have the following installed on your system:
